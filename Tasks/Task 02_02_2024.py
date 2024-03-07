@@ -17,6 +17,7 @@ Task #2 - Print the Table of 2 by using the command print()
 2 x 10 = 20
 Use printf command
 """
+num = 2
 print(
-    f"\n{2} X {1} = {2}\n{2} X {2} = {4}\n{2} X {3} = {6}\n{2} X {4} = {8}\n{2} X {5} = {10}\n{2} X {6} = {12}\n"
-    f"{2} X {7} = {14}\n{2} X {8} = {16}\n{2} X {9} = {18}\n{2} X {10} = {20}")
+    f"\n{num} X 1 = {num}\n{num} X 2 = {num*2}\n{num} X 3 = {num*3}\n{num} X 4 = {num*4}\n{num} X 5 = {num*5}\n{num} X 6 = {num*6}\n"
+    f"{num} X 7 = {num*7}\n{num} X 8 = {num*8}\n{num} X 9 = {num*9}\n{num} X 10 = {num*10}")
